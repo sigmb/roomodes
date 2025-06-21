@@ -2,7 +2,7 @@
 
 Follow https://github.com/shariqriazz/maestro to install latest .roomodes
 
-This version added Brainstormer mode which help expand ideas.
+This version added Brainstormer and Project Brief mode which help expand ideas.
 
 **Instructions**
 1. Create a docs and a file called initialRequirements.md in the folder.
@@ -16,12 +16,12 @@ Help me brainstorm @docs/initialInitialRequirements.md
 
 4. Brainstormer will create a docs/expandedRequirements.md file. Review the file. Make changes, if necessary. Re-run Brainstormer pointing the docs/expandedRequirements.md, if necessary.
 
-5. Change Roo Mode to Product Owner and start a task with this prompt
+5. Change Roo Mode to Project Brief and start a task with this prompt
 ```
 Help me structure my thoughts in @docs/expandedRequirements.md
 ```
 
-6. Product Owner will create a docs/projectBrief.md file. Review the file. Make changes, if necessary.
+6. Project Brief will create a docs/projectBrief.md file. Review the file. Make changes, if necessary.
 
 7. Change Roo Mode to Maestro and create a task with this prompt
 ```
