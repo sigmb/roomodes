@@ -27,7 +27,7 @@ Help me structure my thoughts in @docs/expandedRequirements.md
 ```
 Start with @docs/projectBrief.md
 ```
-8.. Let it cook.
+8. Let it cook.
 
 9. If it stops, create a new task with prompt
 ```
