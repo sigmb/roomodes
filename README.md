@@ -16,7 +16,7 @@ Help me brainstorm @docs/initialInitialRequirements.md
 
 4. Brainstormer will create a docs/expandedRequirements.md file. Review the file. Make changes, if necessary. Re-run Brainstormer pointing the docs/expandedRequirements.md, if necessary.
 
-5. Change Roo Mode to Project Brief and start a task with this prompt
+5. Change Roo Mode to Product Manager (PRD Generator) and start a task with this prompt
 ```
 Help me structure my thoughts in @docs/expandedRequirements.md
 ```
