@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "vertex-ai-mcp-server": {
+      "command": "bunx",
+      "args": [
+        "-y",
+        "vertex-ai-mcp-server"
+      ],
+      "env": {
+        "AI_PROVIDER": "gemini",
+        "GOOGLE_CLOUD_PROJECT": "GOOGLE_CLOUD_APP",
+        "GEMINI_API_KEY": "API_KEY",
+        "GEMINI_MODEL_ID": "gemini-2.5-pro-preview-05-06",
+        "GOOGLE_CLOUD_LOCATION": "us-central1",
+        "AI_TEMPERATURE": "0.0",
+        "AI_USE_STREAMING": "true",
+        "AI_MAX_OUTPUT_TOKENS": "65536",
+        "AI_MAX_RETRIES": "3",
+        "AI_RETRY_DELAY_MS": "1000"
+      },
+      "disabled": false,
+      "alwaysAllow": [
+        "answer_query_websearch",
+        "get_doc_snippets",
+        "explain_topic_with_docs"
+      ],
+      "timeout": 3600
+    }
+  }
+}
