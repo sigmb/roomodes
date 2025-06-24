@@ -1,8 +1,8 @@
 **Roo Modes**
 
-Follow https://github.com/shariqriazz/maestro to install latest .roomodes
+Copy the .roomodes in your project or update your global roomode and add the contents of custom_modes.yaml
 
-This version added Brainstormer and Project Brief mode which help expand ideas.
+This version adds Brainstormer, Product Manager (PRD Generator) and Engineering Manager (Task Generator).
 
 **Instructions**
 1. Create a docs and a file called initialRequirements.md in the folder.
@@ -18,14 +18,14 @@ Help me brainstorm @docs/initialInitialRequirements.md
 
 5. Change Roo Mode to Product Manager (PRD Generator) and start a task with this prompt
 ```
-Help me structure my thoughts in @docs/expandedRequirements.md
+Use @docs/expandedRequirements.md
 ```
 
-6. Project Brief will create a docs/projectBrief.md file. Review the file. Make changes, if necessary.
+6. Product Manager (PRD Generator) will create a docs/prd-[product-name].md file. Review the file. Make changes, if necessary.
 
-7. Change Roo Mode to Maestro and create a task with this prompt
+7. Change Roo Mode to Engineering Manager (Task Generator) and create a task with this prompt
 ```
-Start with @docs/projectBrief.md
+Use @docs/prd-[product-name].md as PRD document.
 ```
 8. Let it cook.
 
@@ -33,4 +33,17 @@ Start with @docs/projectBrief.md
 ```
 Proceed
 ```
+
+10. Change Roo Mode to Code and create a new task with prompt
+```
+Read @tasks/feature-[featur-name].md, implement @tasks/tasks-[sub-task number]-[sub task name].md
+```
+
+11. Confirm the task was completed and in working order. You will need to do vibe coding if it is not working upto spec until satisfied.
+
+12. When task is truly completed, execute a prompt in the current task
+```
+Update task completed in @tasks/tasks-[sub-task number]-[sub task name].md and commit the code changes.
+```
+
 

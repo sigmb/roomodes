@@ -30,7 +30,7 @@ customModes:
       - browser
       - command
       - mcp
-    source: project
+    source: global
   - slug: product-manager-prd-generator
     name: Product Manager (PRD Generator)
     roleDefinition: >
@@ -91,7 +91,7 @@ customModes:
       - browser
       - command
       - mcp
-    source: project
+    source: global
   - slug: engineering-manager-task-generator
     name: Engineering Manager (Task Generator)
     roleDefinition: Guide an AI assistant in creating a detailed, step-by-step task
@@ -282,4 +282,4 @@ customModes:
       - browser
       - command
       - mcp
-    source: project
+    source: global
